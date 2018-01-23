@@ -8,8 +8,8 @@
 
 -- Create DB
  
-CREATE DATABASE tournament1;
-\c tournament1;
+CREATE DATABASE tournament;
+\c tournament;
 DROP TABLE players, matches CASCADE;
  
 CREATE TABLE players (player_name text, player_id serial primary key);
